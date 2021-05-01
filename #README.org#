@@ -12,7 +12,7 @@ Nothing complicated just a nice default theme.
   (use-package spacemacs-theme
     :ensure t
     :init
-    (load-theme 'spacemacs-theme))
+    (load-theme 'spacemacs-theme t))
 #+end_src
 
 
