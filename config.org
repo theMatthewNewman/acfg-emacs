@@ -9,10 +9,10 @@
 Works great for me. 
 Nothing complicated just a nice default theme.
 #+begin_src emacs-lisp
-  (use-package spacemacs-theme
-    :ensure t
+  (use-package spacemacs-common
+    :ensure spacemacs-theme
     :init
-    (load-theme 'spacemacs-theme t))
+    (load-theme 'spacemacs-dark t))
 #+end_src
 
 
